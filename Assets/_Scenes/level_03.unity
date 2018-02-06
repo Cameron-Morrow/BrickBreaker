@@ -1307,13 +1307,12 @@ GameObject:
 --- !u!114 &977127521
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114905842939584976, guid: 4d5a1eae6df3cb14f93ea1a8b7f1f6c5,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 977127520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 954d7e2abc8a58a48813e44ec8f698af, type: 3}
+  m_Script: {fileID: 11500000, guid: 59d3f47b8bc846c429b6461bed64dcc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &977127522
@@ -1603,7 +1602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1355558302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21881da5639b2ef4198971bd29e24e9e, type: 3}
+  m_Script: {fileID: 11500000, guid: a597c437f09fda243bd3e424c3a9a3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1355558305
@@ -1839,7 +1838,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1486557154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21881da5639b2ef4198971bd29e24e9e, type: 3}
+  m_Script: {fileID: 11500000, guid: a597c437f09fda243bd3e424c3a9a3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1486557157
@@ -1947,6 +1946,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
+        type: 2}
+      propertyPath: extraLife.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4569935329960530, guid: 0a21e5b249bc4404b9d0821b98367181, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1983,15 +1987,30 @@ Prefab:
         type: 2}
       propertyPath: lifeSprites.Array.data[0]
       value: 
-      objectReference: {fileID: 1355558304}
+      objectReference: {fileID: 0}
     - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
         type: 2}
       propertyPath: lifeSprites.Array.data[1]
       value: 
-      objectReference: {fileID: 1637467768}
+      objectReference: {fileID: 0}
     - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
         type: 2}
       propertyPath: lifeSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
+        type: 2}
+      propertyPath: extraLife.Array.data[0]
+      value: 
+      objectReference: {fileID: 1355558304}
+    - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
+        type: 2}
+      propertyPath: extraLife.Array.data[1]
+      value: 
+      objectReference: {fileID: 1637467768}
+    - target: {fileID: 114780552611190180, guid: 0a21e5b249bc4404b9d0821b98367181,
+        type: 2}
+      propertyPath: extraLife.Array.data[2]
       value: 
       objectReference: {fileID: 1486557156}
     m_RemovedComponents: []
@@ -2137,7 +2156,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637467766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21881da5639b2ef4198971bd29e24e9e, type: 3}
+  m_Script: {fileID: 11500000, guid: a597c437f09fda243bd3e424c3a9a3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1637467769

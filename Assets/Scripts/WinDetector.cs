@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoKids : MonoBehaviour {
+public class WinDetector : MonoBehaviour {
 	
 	private LevelManager levelManager;
 	
@@ -10,7 +10,6 @@ public class NoKids : MonoBehaviour {
 		levelManager = GameObject.FindObjectOfType<LevelManager>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if(transform.childCount <= 0){
 			levelManager.CompleteLevel();

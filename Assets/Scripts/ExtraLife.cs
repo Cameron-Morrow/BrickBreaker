@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoseLife : MonoBehaviour {
+public class ExtraLife : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
+	
 	public void killSelf(){
 		Destroy(gameObject);
 	}
